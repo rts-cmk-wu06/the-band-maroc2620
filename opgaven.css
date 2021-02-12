@@ -1,0 +1,145 @@
+html{
+    font-family: Arial, helvetica, sans-serif
+} 
+body {
+    margin:0;
+}
+
+/*--------------- text og font --------------- */
+h1 {
+font-size: 48px;
+margin: 0;
+}
+
+h2 { 
+     font-size: 48px;
+ }
+P { 
+
+line-height: 1.5;
+}
+
+/* /*--------------- Layout--------- */
+header { 
+     background-image: url('../img/banner.jpg');
+     height: 240px;
+      
+    }
+header nav {
+
+}
+
+main {
+     width: 1184px; 
+     margin: 0 auto;
+     padding: 48px 0;
+
+    }
+    footer { 
+        height: 80px;
+        background-image: url(../img/banner_footer.jpg);
+
+    } 
+
+    footer div {
+
+        width: 1184px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        /*-------------- navigation ------------ */
+        nav ul {
+            padding:0;
+            list-style: none;
+            align-self: flex-end;
+            display: flex;
+            justify-content: flex-end;
+        }
+    
+        nav img {
+            margin: 20px 0;
+
+        } 
+
+        nav a {
+            font-size: 20px;
+            text-decoration: none;
+    
+        } 
+        
+        nav li a { 
+            margin-left: 50px;
+            color: black;
+            
+        }
+
+        nav li a:hover {
+            color: red;
+            text-decoration: underline
+
+        }
+     
+    /* ------------- main content -------------- */
+    article {
+        display: flex;
+        justify-content: space-between;
+
+    } 
+
+    article section {
+        width: 40%
+    } 
+
+    article figure {
+        width: 58%;
+        margin: 0;
+        display: flex; 
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    figure img {
+        margin-bottom: 15px;
+    
+    }
+    figure img:nth-last-child(-n+2) { 
+        margin-bottom: 0;
+    
+    }
+  
+     
+    /* ---------------- footer content ------------- */
+    footer img {
+        margin-left: 32 px,
+    }
+    
+
+    
+    
+
+
+    
+    
+    
+    
+
+    
+
+    
+
+
+        
+    
+
+        
+    
+
+
+
+
+
+
+     
